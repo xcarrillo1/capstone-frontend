@@ -11,6 +11,7 @@ Welcome to my views from your seat rating app. The app is a full-stack app with 
 - CSS
 - HTML
 - JavaScript
+- Postico
 - Netlify
 
 ## Screenshots:
