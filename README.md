@@ -1,7 +1,7 @@
 # YourSeat - Captsone Project
 
 ## Description:
-Welcome to my views from your seat rating app. The app is a full-stack app with create, read, and delete functions. Backend was developed with Python and Django. Frontend was developed with React JS.
+Welcome to views from your seat rating app. The app is a full-stack app with full CRUD data operations. Backend was developed with Python and Django. Frontend was developed with React JS.
 
 [Click Here](backendlink) to take a look at the backend code!
 
@@ -22,4 +22,4 @@ These screenshots show a quick sketch of what the app looks while the user navig
 [Click here](netlifylink) to check out the app!
 
 ## Future Enhancements:
-For future enhacements, I would to have filters to sort the reviews by the sport/venue.
+For future enhacements, I would like to have filters to sort the reviews by the sport/venue.
