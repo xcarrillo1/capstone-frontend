@@ -1,3 +1,15 @@
+/* Font for Header */
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+/* Subheadings and buttons */
+@import url('https://fonts.googleapis.com/css2?family=Offside&display=swap');
+/* Font for text */
+@import url('https://fonts.googleapis.com/css2?family=Lekton&display=swap');
+
+* {
+  box-sizing: border-box;
+  background-color: #CBE1EF;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +47,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* FOOTER */
+.footer-right > a {
+  margin-right: 5px;
+  margin-left: 5px;
 }
