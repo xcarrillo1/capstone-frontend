@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import NavBar from './components/NavBar';
+import SignUp from './components/SignUp';
+import AllPost from './pages/AllPost';
+import CreatePost from './pages/CreatePost';
+import Home from './pages/Home';
+import Show from './pages/Show';
+import Vt from './pages/Vt';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SignUp />
+      <Header />
+      <NavBar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/allpost' element={<AllPost />} />
+          <Route path='/createpost' element={<CreatePost />} />
+          <Route path='/allpost/:id' element={<Show />} />
+          <Route path='/vt' element={<Vt />} />
+        </Routes>
+      <Footer />
     </div>
   );
 }
-
-export default App;
