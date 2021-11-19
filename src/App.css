@@ -60,6 +60,51 @@
   padding: 1rem;
 }
 
+/* Create Post */
+.create {
+  background-color: #DF0054;
+  color: white;
+  font-family: "Offside", sans-serif;
+}
+
+.container-new {
+  width: 50vw;
+  height: 53vh;
+  margin: 50px auto;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px #FC888C,
+              -1px -1px 10px #FC888C,
+              1px -1px 10px #FC888C,
+              -1px 1px 10px #FC888C;
+  justify-content: center;
+}
+
+.container-new input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.container-new textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid;
+  border-radius: 5px;
+  resize: none;
+  height: 100px;
+}
+
+::placeholder {
+  color: #FC888C;
+  font-family: "Offside", sans-serif;
+}
+
 
 
 /* FOOTER */
