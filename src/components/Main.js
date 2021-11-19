@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Route, Routes } from 'react-router-dom';
-import AllPost from '../pages/AllPost';
-import CreatePost from '../pages/CreatePost';
+import AllVenues from '../pages/AllVenues';
+import CreateVenue from '../pages/CreateVenue';
 import Home from '../pages/Home';
 import Show from '../pages/Show';
 import Vt from '../pages/Vt';
@@ -17,24 +17,24 @@ export default function Main(props) {
         setVenue(data);
     };
 
-    const createVenue = async (post) => {
+    const createVenue = async (venue) => {
         await fetch(URL, {
             method: "POST",
             headers: {
                 "Content-Type": "Application/json",
             },
-            body: JSON.stringify(post),
+            body: JSON.stringify(venue),
         });
         getVenue();
     };
 
-    const updateVenue = async (post, id) => {
+    const updateVenue = async (venue, id) => {
         await fetch(URL + id, { 
             method: "PUT" , 
             headers: {
                 "Content-Type": "Application/json", 
             },
-            body: JSON.stringify(post),
+            body: JSON.stringify(venue),
         });
         getVenue();
     }
@@ -52,9 +52,9 @@ export default function Main(props) {
         <main>
             <Routes>
                 <Route path='/' element={<Home />} />
-                <Route path='/allpost' element={<AllPost venue={venue} />} />
-                <Route path='/createpost' element={<CreatePost venue={venue} createVenue={createVenue} />} />
-                <Route path='/allpost/:id' element={<Show venue={venue} updateVenue={updateVenue} deleteVenue={deleteVenue} />} />
+                <Route path='/allvenues' element={<AllVenues venue={venue} />} />
+                <Route path='/createvenue' element={<CreateVenue venue={venue} createVenue={createVenue} />} />
+                <Route path='/allvenues/:id' element={<Show venue={venue} updateVenue={updateVenue} deleteVenue={deleteVenue} />} />
                 <Route path='/vt' element={<Vt />} />
             </Routes>
         </main>
