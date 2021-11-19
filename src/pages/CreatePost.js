@@ -16,7 +16,7 @@ export default function CreatePost(props) {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        props.createPost(newForm);
+        props.createVenue(newForm);
         setNewForm({
             venue: "",
             slocation: "",
@@ -25,6 +25,7 @@ export default function CreatePost(props) {
             reviewer: "",
             description: "",
         });
+        console.log(setNewForm);
     };
 
     return (
