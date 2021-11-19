@@ -52,16 +52,24 @@
   text-align: center;
 }
 
+.home img {
+  border-radius: 25px;
+  width: 850px;
+  height: 500px;
+  margin: auto;
+  padding: 1rem;
+}
 
 
 
 /* FOOTER */
 .footer {
   font-family: "Offside", sans-serif;
+  text-align: center;
 }
 
-.footer-right > a {
-  margin-right: 5px;
-  margin-left: 5px;
-  
+.footer-right  a {
+  text-align: center;
+  display: inline-block;
 }
+

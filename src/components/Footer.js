@@ -5,8 +5,12 @@ export default function Footer(props) {
                 <h4>© YourSeats</h4>
             </div>
             <div className="footer-right">
-                <a href="https://github.com/xcarrillo1">GitHub</a>
-                <a href="https://www.linkedin.com/in/carrilloxavier/">LinkedIn</a>
+                <div className="github">
+                    <a href="https://github.com/xcarrillo1">GitHub</a>
+                </div>
+                <div className="linkedin">
+                    <a href="https://www.linkedin.com/in/carrilloxavier/">LinkedIn</a>
+                </div>
             </div>
         </footer>
     )
