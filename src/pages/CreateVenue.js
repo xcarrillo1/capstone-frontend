@@ -43,18 +43,18 @@ export default function CreateVenue(props) {
                     placeholder="City, State"
                     onChange={handleChange}
                 />
+                Indoor:
                 <input
                     type="checkbox"
                     value={newForm.indoor}
                     name="indoor"
-                    placeholder="Indoor"
                     onChange={handleChange}
                 />
+                Outdoor:
                 <input
                     type="checkbox"
                     value={newForm.outdoor}
                     name="outdoor"
-                    placeholder="Outdoor"
                     onChange={handleChange}
                 />
                 <input
