@@ -9,7 +9,7 @@ import Vt from '../pages/Vt';
 export default function Main(props) {
     const [venue, setVenue] = useState(null);
 
-    const URL = "http://127.0.0.1:8000/";
+    const URL = "https://lit-bastion-80745.herokuapp.com/";
 
     const getVenue = async () => {
         const response = await fetch(URL);

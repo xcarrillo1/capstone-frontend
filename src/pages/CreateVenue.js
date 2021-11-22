@@ -23,7 +23,7 @@ export default function CreateVenue(props) {
             outdoor: false,
             photo_url: "",
         });
-        console.log(setNewForm);
+        console.log(newForm);
     };
 
     return (
@@ -46,14 +46,14 @@ export default function CreateVenue(props) {
                 Indoor:
                 <input
                     type="checkbox"
-                    value={newForm.indoor}
+                    // value={newForm.indoor}
                     name="indoor"
                     onChange={handleChange}
                 />
                 Outdoor:
                 <input
                     type="checkbox"
-                    value={newForm.outdoor}
+                    // value={newForm.outdoor}
                     name="outdoor"
                     onChange={handleChange}
                 />

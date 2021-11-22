@@ -20,7 +20,7 @@
 /* Header */
 .header {
   font-family: "Merienda", sans-serif;
-  color: #DF0054;
+  color: navy;
   text-align: center;
   font-size: 40px;
   margin-bottom: -25px;
@@ -43,7 +43,7 @@
 
 .navbar a {
   text-decoration: none;
-  color: #FC888C;
+  color: olive;
   font-family: "Offside", sans-serif;
   font-size: 20px;
 }
@@ -63,14 +63,11 @@
 
 /* All Venues */
 .venue {
-  opacity:0.5;
-  transition: 1s ease;
+  display: inline-block;
+  text-align: center;
 }
 
-.venue:hover {
-  opacity:1;
-  transition: 1s ease;
-}
+
 
 .venue img {
   border-radius: 25px;
@@ -80,9 +77,18 @@
   object-fit: cover;
 }
 
+.venue a {
+  text-decoration: none;
+}
+
+.venue h2 {
+  font-family: "Offside", sans-serif;
+  color: navy;
+}
+
 /* Create Venue */
 .create {
-  background-color: #DF0054;
+  background-color: navy;
   color: white;
   font-family: "Offside", sans-serif;
 }
@@ -93,10 +99,10 @@
   margin: 50px auto;
   display: flex;
   border-radius: 10px;
-  box-shadow: 1px 1px 10px #FC888C,
-              -1px -1px 10px #FC888C,
-              1px -1px 10px #FC888C,
-              -1px 1px 10px #FC888C;
+  box-shadow: 1px 1px 10px grey,
+              -1px -1px 10px grey,
+              1px -1px 10px grey,
+              -1px 1px 10px grey;
   justify-content: center;
 }
 
@@ -121,7 +127,7 @@
 }
 
 ::placeholder {
-  color: #FC888C;
+  color: navy;
   font-family: "Offside", sans-serif;
 }
 
