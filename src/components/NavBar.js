@@ -9,9 +9,12 @@ export default function NavBar(props) {
             <Link to="/createvenue">
                 <div>Create Venue</div>
             </Link>
+            {/* <Link to="/createseat">
+                <div>Create Seat</div>
+            </Link> */}
             <Link to="/vt">
                 <div>Venues/Teams</div>
             </Link>
         </nav>
     )
-} 
+}
