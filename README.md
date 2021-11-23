@@ -19,7 +19,7 @@ These screenshots show a quick sketch of what the app looks while the user navig
 ![YourSeat wireframe](public/WireFrame.png)
 
 ## Get it Started:
-[Click here](netlifylink) to check out the app!
+[Click here](https://yourseats.netlify.app/) to check out the app!
 
 ## Future Enhancements:
 For future enhacements, I would like to have filters to sort the reviews by the sport/venue.
