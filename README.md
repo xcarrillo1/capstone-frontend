@@ -1,7 +1,7 @@
 # YourSeat - Captsone Project
 
 ## Description:
-Welcome to views from your seat rating app. The app is a full-stack app with full CRUD data operations. Backend was developed with Python and Django. Frontend was developed with React JS.
+Welcome to views from your seat rating app. The app is a full-stack app with some CRUD data operations. Backend was developed with Python and Django. Frontend was developed with React JS.
 
 [Click Here](https://github.com/xcarrillo1/capstone-backend) to take a look at the backend code!
 
